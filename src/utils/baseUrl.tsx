@@ -1,0 +1,1 @@
+export const base_url = "http://localhost:11000/api/v1/movielist"
