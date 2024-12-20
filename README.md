@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+Name: Okoisor Ochael
+Email: okoisorjr@gmail.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend Link: https://movie-listings-7jik-6jqajf4xn-okoisorjrs-projects.vercel.app
+API Link: https://172.210.66.174:11000/api/v1/movielist
 
-Currently, two official plugins are available:
+# Movie listings
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was insipired by cytric.io, it is a simple movie listings application where family and friends can keep tabs and stay updated on trending movies 
+or share the movies they have seen. This is a simple implementation of the frontend i.e [UI].
 
-## Expanding the ESLint configuration
+# Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+React with typescript and Tailwindcss
 
-- Configure the top-level `parserOptions` property like this:
+## Related
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Here is a related project
+
+[Backend](https://github.com/okoisorjr/movie_listings_api.git)
+
+# Getting Started
+
+## Setup 
+To setup your project simply clone the repository
+
+```bash
+  git clone https://github.com/okoisorjr/movie_listings.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+after you have successfully cloned the repository run
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+    npm install
 ```
+
+## Run project
+To run the project on your local device simply run the command
+
+```bash
+    npm run dev
+```
+
