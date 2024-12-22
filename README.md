@@ -4,7 +4,7 @@ Email: okoisorjr@gmail.com
 
 Frontend Link: https://movie-listings-7jik-6jqajf4xn-okoisorjrs-projects.vercel.app
 
-API Link: https://172.210.66.174:11000/api/v1/movielist
+API Link: https://172.210.66.174/api/v1/movielist
 
 Loom Recording 1: https://www.loom.com/share/54894a9f9f35407aa00fe34a680b562c?sid=6f378462-dbe3-41ec-978c-307901bd429d
 
