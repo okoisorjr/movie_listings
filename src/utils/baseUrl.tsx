@@ -1,1 +1,1 @@
-export const base_url = "https://172.210.66.174:11000/api/v1/movielist" //"http://localhost:11000/api/v1/movielist"
+export const base_url = "https://172.210.66.174/api/v1/movielist" //"http://localhost:11000/api/v1/movielist"
