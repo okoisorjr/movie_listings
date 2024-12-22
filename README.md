@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+Name: Okoisor Ochael
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Email: okoisorjr@gmail.com
 
-Currently, two official plugins are available:
+Frontend Link: https://movie-listings-7jik-6jqajf4xn-okoisorjrs-projects.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+API Link: https://172.210.66.174:11000/api/v1/movielist
 
-## Expanding the ESLint configuration
+Loom Recording 1: https://www.loom.com/share/54894a9f9f35407aa00fe34a680b562c?sid=6f378462-dbe3-41ec-978c-307901bd429d
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Loom Recording 2: https://www.loom.com/share/659c58b86bac45febf2560bb1d97074f?sid=2d7f1fbc-738e-4cd7-a675-48745e9ca03b
 
-- Configure the top-level `parserOptions` property like this:
+Loom Recording 3: https://www.loom.com/share/3e978faea1444852bc21acf7dd0280a7?sid=115da141-01a3-48f1-b8df-a36dfd651df4
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Loom Recording 4: https://www.loom.com/share/e70df88698ca4672afcd4851f9b90c51?sid=800899ba-940d-437c-87a2-79ba7e5c5838
+
+Loom Recording 5: https://www.loom.com/share/c903380a983748acbc4320a37d30681e?sid=d3c5cac7-0d1a-4f08-9918-8c28af2ee655
+
+# Movie listings
+
+This project was insipired by cytric.io, it is a simple movie listings application where family and friends can keep tabs and stay updated on trending movies 
+or share the movies they have seen. This is a simple implementation of the frontend i.e [UI].
+
+# Technologies
+
+React with typescript and Tailwindcss
+
+## Related
+
+Here is a related project
+
+[Backend](https://github.com/okoisorjr/movie_listings_api.git)
+
+# Getting Started
+
+## Setup 
+To setup your project simply clone the repository
+
+```bash
+  git clone https://github.com/okoisorjr/movie_listings.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+after you have successfully cloned the repository run
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+    npm install
 ```
+
+## Run project
+To run the project on your local device simply run the command
+
+```bash
+    npm run dev
+```
+
